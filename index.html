@@ -813,7 +813,7 @@ p {
 .back-to-top {
     position: fixed;
     bottom: 2rem;
-    right: 2rem;
+    left: 2rem; /* changed from right: 2rem */
     width: 40px;
     height: 40px;
     background-color: var(--primary-color);
@@ -827,6 +827,7 @@ p {
     transition: all var(--transition-fast);
     z-index: var(--z-tooltip);
 }
+
 
 .back-to-top.active {
     opacity: 1;
